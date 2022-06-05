@@ -1,0 +1,45 @@
+.home {
+  max-width: 1280px;
+  margin: auto;
+}
+
+.home__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home__searchContainer {
+  border: 1px solid rgb(189, 189, 189);
+  display: inline-flex;
+  width: 100%;
+}
+
+.home__searchContainer input {
+  border: none;
+  outline: none;
+  flex: 1;
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+.home__searchContainer button {
+  background-color: rgb(0, 115, 255);
+  outline: none;
+  border: none;
+  padding: 7px 12px;
+  cursor: pointer;
+}
+
+.home__searchContainer img {
+  width: 20px;
+}
+
+.home__cityDetails {
+  box-shadow: 10px 3px 36px -6px rgba(41, 41, 41, 0.54);
+  -webkit-box-shadow: 10px 3px 36px -6px rgba(41, 41, 41, 0.54);
+  -moz-box-shadow: 10px 3px 36px -6px rgba(41, 41, 41, 0.54);
+  width: 45%;
+  padding: 20px;
+  margin-top: 20px;
+}
