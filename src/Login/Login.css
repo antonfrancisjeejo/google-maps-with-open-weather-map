@@ -1,0 +1,103 @@
+.login {
+  width: 900px;
+  height: 600px;
+  display: flex;
+  margin: auto;
+  border-radius: 20px;
+  margin-top: 100px;
+  box-shadow: 10px 3px 36px -6px rgba(41, 41, 41, 0.54);
+  -webkit-box-shadow: 10px 3px 36px -6px rgba(41, 41, 41, 0.54);
+  -moz-box-shadow: 10px 3px 36px -6px rgba(41, 41, 41, 0.54);
+  overflow: hidden;
+}
+
+.login__left {
+  background: url("https://c4.wallpaperflare.com/wallpaper/413/925/249/minimalism-abstract-pattern-digital-art-wallpaper-preview.jpg");
+  background-size: cover;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 15px;
+}
+
+.login__leftContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.login__rightContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90%;
+}
+
+.login__left > h1 {
+  color: white;
+}
+
+.login__left > p {
+  color: white;
+}
+
+.login__emoji1 {
+  background: #fdfc47; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #24fe41,
+    #fdfc47
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #24fe41,
+    #fdfc47
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 20px 25px;
+  font-size: 40px;
+  border-radius: 50%;
+}
+
+.login__emoji2 {
+  background: #f12711; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #f5af19,
+    #f12711
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #f5af19,
+    #f12711
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 20px 25px;
+  font-size: 40px;
+  border-radius: 50%;
+}
+
+.login__emoji3 {
+  background: #7f7fd5; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #91eae4,
+    #86a8e7,
+    #7f7fd5
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #91eae4,
+    #86a8e7,
+    #7f7fd5
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 20px 25px;
+  font-size: 40px;
+  border-radius: 50%;
+}
+
+.login__right {
+  width: 50%;
+}
